@@ -1,0 +1,96 @@
+public class contra {    
+    BPM t;
+    t.tempo(140);
+    t.QN => dur QN;
+    t.DQN => dur DQN;
+    t.DHN => dur DHN;
+    t.HN => dur HN;
+    t.WN => dur WN;
+    t.EN => dur EN;
+    
+    [
+    "R", "R", "R", "R", "R", "R",
+    "R", "R", "R", "R",
+    "B4", "A4", "D5", "B4", "F#5", "G5",
+    "F#5", "D5", "B4", "A4", "G4",
+    "B4", "A4", "D5", "B4", "A4", "G4",
+    "F#4", "G4", "A4", "D4", "D4",
+    "E4", "E4", "B4",
+    "G4", "F#4", 
+    "R", "R", "R", "R", "R", "R", "R", 
+    "R",
+    "R", "R", "R", "R", "R", "R",
+    "R", "R", "R", "R", "R",
+    "B3", "A3", "D4", "B3", "F#4", "G4",
+    "F#4", "D4", "B3", "A3", "G3",
+    "B3", "A3", "D4", "B3", "A3", "D4",
+    "F#3", "G3", "F#3", "D3", "F#2",
+    "E3", "B3", "G3", "F#3",
+    "F#3", "D3",
+    "R", "R", "R", "R", "R",
+    "R", "R", "R", "R", "R", "R",
+    "R", "R", "R", "R", "R",
+    "R", "R", "R",
+    "E3", "B3", "F#3", "D4", "C4",
+    "B3", "F#4", "G4", "F#4", "D4", "B3",
+    "E3", "G3", "A3", 
+    "B3", "B3", "C#4", "D#4", 
+    "E4", "B4", "A4", "E4", "B4", "A4",
+    "F#4", "G4", "F#4", "D4", "F#3",
+    "E4", "B4", "A4", "D#5", "B4", "A4",
+    "A4", "G4", "A4", "B4", "F#4",
+    "E4", "B4", "A4", "E4", "B4", "A4",
+    "F#4", "G4", "F#4", "D4", "F#4", 
+    "R", "R", "R", "R", 
+    "R", "R", "R", "R",
+    "E3", "B3", "G3", "A3", "B3",
+    "F#3", "D3", "A2", "F#3",
+    "C3", "E3", "G3", "A3",
+    "B3", "E3", "D#3", "F3", "G3",
+    "A2", "A2", "A2", "F#2", "A2",
+    "F#2", "G#2"
+    ] @=> string notes[];
+    
+    [
+    DQN, QN*2, QN, QN, QN, QN,
+    DQN, QN*2, QN, HN,
+    DQN, QN*2, QN, QN, QN, QN,
+    DQN, QN*2, QN, QN, QN,
+    DQN, QN*2, QN, QN, QN, QN,
+    DQN, QN*2, QN, DQN, QN,
+    QN, QN, QN*2,
+    HN, HN, HN, 
+    QN, QN, QN, QN, QN, QN, QN,
+    WN,
+    DQN, QN*2, DQN, QN*2, QN,
+    DQN, QN*2, QN, QN, QN,
+    DQN, QN*2, QN, QN, QN, QN,
+    DQN, QN*2, QN, QN, QN,
+    DQN, QN*2, QN, DQN, QN*2, QN,
+    DQN, QN*2, QN, QN, QN,
+    QN, QN, QN, QN,
+    HN, HN,
+    DQN, QN*2, QN, QN, QN*2,
+    DQN, QN*2, QN, QN, QN, QN,
+    DQN, QN*2, DQN, QN*2, QN,
+    DHN, QN, QN,
+    DQN, QN*2, DQN, QN*2, QN,
+    QN, QN, QN, DQN, QN*2, QN,
+    HN, QN, QN,
+    QN, QN, QN, QN,
+    DQN, QN*2, QN, DQN, QN*2, QN,
+    DQN, QN*2, QN, QN, QN,
+    DQN, QN*2, QN, QN, QN, QN,
+    DQN, QN*2, QN, QN, QN,
+    DQN, QN*2, QN, DQN, QN*2, QN,
+    DQN, QN*2, QN, QN, QN,
+    QN, QN, QN, QN,
+    DQN, QN*2, QN, HN,
+    QN, QN, QN, QN, QN,
+    DQN, QN*2, QN, HN,
+    HN+QN, QN, QN, QN,
+    EN, QN, QN, QN, QN,
+    DQN, QN*2, QN*2, QN, QN,
+    QN, WN
+    ]@=> dur durs[];
+}

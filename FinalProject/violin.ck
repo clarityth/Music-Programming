@@ -1,0 +1,96 @@
+public class violin {    
+    BPM t;
+    t.tempo(140);
+    t.QN => dur QN;
+    t.DQN => dur DQN;
+    t.DHN => dur DHN;
+    t.HN => dur HN;
+    t.WN => dur WN;
+    t.EN => dur EN;
+    
+    [
+    "R", "R", "R", "R", "R", "R",
+    "R", "R", "R", "R",
+    "E5", "R", "R", "D5", "A5", "B5",
+    "A5", "G5", "R", "C5", "B4",
+    "E5", "R", "R", "F#5", "R", "R",
+    "D5", "R", "A5", "R", "R",
+    "B4", "R", "R",
+    "C5", "B4", 
+    "G4", "R", "R", "D4", "R", "R", "R",
+    "E5",
+    "C4", "R", "R", "F#4", "A4", "D5",
+    "B3", "R", "R", "B3", "R",
+    "D4", "R", "R", "D#4", "A4", "B4",
+    "A4", "F#4", "R", "E4", "D4",
+    "E4", "R", "R", "F#4", "R", "R",
+    "B3", "R", "R", "G4", "R",
+    "D4", "R", "D#4", "R",
+    "A3", "R",
+    "G3", "R", "D4", "R", "R",
+    "D4", "D4", "D4", "D4", "B3", "A3",
+    "G3", "D4", "A3", "F#4", "E4",
+    "D4", "B3", "A3",
+    "G3", "D4", "A3", "F#4", "E4",
+    "D4", "A4", "B4", "A4", "F#4", "D4",
+    "G3", "A3", "C4",
+    "R", "D#4", "E4", "F#4", 
+    "G4", "C5", "C5", "G4", "C5", "C5",
+    "A4", "B4", "A4", "G4", "R",
+    "G4", "C5", "C5", "F#5", "D#5", "D#5",
+    "B4", "B4", "B4", "B4", "B4",
+    "G4", "C5", "C5", "G4", "C5", "C5",
+    "A4", "B4", "A4", "G4", "R", 
+    "G4", "D5", "B4", "A4", 
+    "A4", "F#4", "E4", "B3",
+    "C4", "R", "D#4", "R", "R",
+    "B3", "A3", "R", "G3",
+    "R", "R", "R", "R",
+    "R", "F#3", "F#3", "R", "R",
+    "A3", "A3", "R", "R", "R",
+    "F#3", "G#3"
+    ] @=> string notes[];
+    
+    [
+    DQN, QN*2, QN, QN, QN, QN,
+    DQN, QN*2, QN, HN,
+    DQN, QN*2, QN, QN, QN, QN,
+    DQN, QN*2, QN, QN, QN,
+    DQN, QN*2, QN, QN, QN, QN,
+    DQN, QN*2, QN, DQN, QN,
+    QN, QN, QN*2,
+    HN, HN, HN, 
+    QN, QN, QN, QN, QN, QN, QN,
+    WN,
+    DQN, QN*2, DQN, QN*2, QN,
+    DQN, QN*2, QN, QN, QN,
+    DQN, QN*2, QN, QN, QN, QN,
+    DQN, QN*2, QN, QN, QN,
+    DQN, QN*2, QN, DQN, QN*2, QN,
+    DQN, QN*2, QN, QN, QN,
+    QN, QN, QN, QN,
+    HN, HN,
+    DQN, QN*2, QN, QN, QN*2,
+    DQN, QN*2, QN, QN, QN, QN,
+    DQN, QN*2, DQN, QN*2, QN,
+    DHN, QN, QN,
+    DQN, QN*2, DQN, QN*2, QN,
+    QN, QN, QN, DQN, QN*2, QN,
+    HN, QN, QN,
+    QN, QN, QN, QN,
+    DQN, QN*2, QN, DQN, QN*2, QN,
+    DQN, QN*2, QN, QN, QN,
+    DQN, QN*2, QN, QN, QN, QN,
+    DQN, QN*2, QN, QN, QN,
+    DQN, QN*2, QN, DQN, QN*2, QN,
+    DQN, QN*2, QN, QN, QN,
+    QN, QN, QN, QN,
+    DQN, QN*2, QN, HN,
+    QN, QN, QN, QN, QN,
+    DQN, QN*2, QN, HN,
+    HN+QN, QN, QN, QN,
+    EN, QN, QN, QN, QN,
+    DQN, QN*2, QN*2, QN, QN,
+    QN, WN
+    ]@=> dur durs[];
+}
