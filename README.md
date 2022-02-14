@@ -1,5 +1,5 @@
 # Music-Programming
-<ul><li>2021년 2학기 음악프로그래밍 과목 Repsoitory입니다.</li></ul>
+<ul><li>2021년 2학기 음악프로그래밍 과목 Repository입니다.</li></ul>
 
 # <h2>수업목표
 <ul><li>ChucK 프로그래밍 언어 프로그램 구조의 구문과 실행 의미 습득</li>
